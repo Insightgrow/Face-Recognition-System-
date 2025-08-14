@@ -24,9 +24,9 @@ A simple, beginner-friendly face recognition application built with Python. The 
 
 ---
 ## Project Structure
-├── dataset/              # Stores the captured face images for training.
-├── trainer/              # Stores the trained model file (trainer.yml).
-├── app.py                # The main Python script with the Tkinter GUI and recognition logic.
-├── train_model.py        # The script used to train the face recognizer.
-├── face_recognition.db   # The SQLite database file for storing user info.
-└── .gitignore            # Specifies files for Git to ignore.
+- ├── dataset/              # Stores the captured face images for training.
+- ├── trainer/              # Stores the trained model file (trainer.yml).
+- ├── app.py                # The main Python script with the Tkinter GUI and recognition logic.
+- ├── train_model.py        # The script used to train the face recognizer.
+- ├── face_recognition.db   # The SQLite database file for storing user info.
+- └── .gitignore            # Specifies files for Git to ignore.
